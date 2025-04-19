@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import {FunctionComponent} from '../share/function/function.component';
 import {
   FuncionalidadesSwiftportComponent
 } from '../components/funcionalidades-swiftport/funcionalidades-swiftport.component';
