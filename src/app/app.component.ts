@@ -6,6 +6,7 @@ import {
 } from '../components/funcionalidades-swiftport/funcionalidades-swiftport.component';
 import {BeneficiosComponent} from '../components/beneficios/beneficios.component';
 import {WhatComponent} from '../components/what/what.component';
+import {WhyComponent} from '../components/why/why.component';
 
 @Component({
   selector: 'app-root',
@@ -13,7 +14,8 @@ import {WhatComponent} from '../components/what/what.component';
     RouterOutlet,
     FuncionalidadesSwiftportComponent,
     BeneficiosComponent,
-    WhatComponent
+    WhatComponent,
+    WhyComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
