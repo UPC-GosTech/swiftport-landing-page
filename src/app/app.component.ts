@@ -6,6 +6,7 @@ import {
 import {BeneficiosComponent} from '../components/beneficios/beneficios.component';
 import {WhatComponent} from '../components/what/what.component';
 import {WhyComponent} from '../components/why/why.component';
+import {HowComponent} from '../components/how/how.component';
 
 @Component({
   selector: 'app-root',
@@ -14,7 +15,8 @@ import {WhyComponent} from '../components/why/why.component';
     FuncionalidadesSwiftportComponent,
     BeneficiosComponent,
     WhatComponent,
-    WhyComponent
+    WhyComponent,
+    HowComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
