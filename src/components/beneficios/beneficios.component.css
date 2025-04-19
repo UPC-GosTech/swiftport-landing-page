@@ -1,0 +1,22 @@
+.beneficios-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+.beneficios-title {
+  font-family: Inter;
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
+.benefits-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+}

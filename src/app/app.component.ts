@@ -4,10 +4,15 @@ import {FunctionComponent} from '../share/function/function.component';
 import {
   FuncionalidadesSwiftportComponent
 } from '../components/funcionalidades-swiftport/funcionalidades-swiftport.component';
+import {BeneficiosComponent} from '../components/beneficios/beneficios.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, FuncionalidadesSwiftportComponent],
+  imports: [
+    RouterOutlet,
+    FuncionalidadesSwiftportComponent,
+    BeneficiosComponent
+  ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

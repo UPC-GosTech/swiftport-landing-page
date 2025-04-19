@@ -1,0 +1,33 @@
+.benefit-container {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  padding: 50px;
+}
+
+.picture-container {
+  width: 268px;
+  height: 174px;
+  background-color: #EE812C;
+  border-radius: 20px;
+  align-content: center;
+  justify-content: center;
+}
+
+.img {
+  width: 140px;
+  height: 140px;
+}
+
+.text-container {
+  width: 600px;
+  height: 150px;
+  text-align: center;
+  justify-content: center;
+  font-family: Inter;
+  font-size: 20px;
+}
