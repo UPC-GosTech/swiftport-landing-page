@@ -1,0 +1,24 @@
+.funcionalidades-swiftport-container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  background-color: #EE812C;
+}
+
+.funcionalidades-title {
+  font-family: Inter;
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+
+.functions-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 70px;
+  padding: 40px 100px;
+}
