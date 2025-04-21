@@ -13,7 +13,7 @@ export class ExtensionPanelComponent {
   @Input() questionNumber: number = 1;
   @Input() title: string = ''; // Alternative to question
   @Input() content: string = ''; // Optional content as string input
-  @Input() theme: 'light' | 'dark' | 'orange' = 'light'; // Theme options
+  @Input() theme: 'light' | 'dark'  = 'light'; // Theme options
   @Input() showIcon: boolean = true; // Whether to show the arrow icon
   
   isExpanded: boolean = false;
@@ -22,7 +22,7 @@ export class ExtensionPanelComponent {
     this.isExpanded = !this.isExpanded;
   }
   
-  // Get the displayed title from either title or question+number
+  // Choose the title to display
   get displayTitle(): string {
     if (this.title) {
       return this.title;

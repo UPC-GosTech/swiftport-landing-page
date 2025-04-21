@@ -6,9 +6,8 @@
     </svg>
   </div>
   <div class="panel-content" [class.expanded]="isExpanded">
-    <!-- Show input content if provided -->
     <div *ngIf="content">{{content}}</div>
-    <!-- Otherwise use ng-content projection -->
+    <!-- If no content, use ng-content (what is inside the extension-panel tag) -->
     <ng-content *ngIf="!content"></ng-content>
   </div>
 </div>
