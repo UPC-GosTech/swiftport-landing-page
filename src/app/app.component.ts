@@ -8,16 +8,22 @@ import {WhatComponent} from './components/what/what.component';
 import {WhyComponent} from './components/why/why.component';
 import {HowComponent} from './components/how/how.component';
 import {FaqComponent} from './components/faq/faq.component';
+import {HeaderComponent} from './components/header/header.component';
+import { CommonModule } from '@angular/common';
+
 @Component({
   selector: 'app-root',
+  standalone: true,
   imports: [
+    CommonModule,
     RouterOutlet,
     FuncionalidadesSwiftportComponent,
     BeneficiosComponent,
     WhatComponent,
     WhyComponent,
     HowComponent,
-    FaqComponent
+    FaqComponent,
+    HeaderComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

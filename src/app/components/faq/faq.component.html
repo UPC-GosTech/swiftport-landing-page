@@ -4,12 +4,13 @@
     
     <div class="faq-container">
 
-      <app-extension-panel 
-        *ngFor="let faq of faqItems; let i = index" 
-        [question]="faq.question" 
-        [questionNumber]="i + 1">
-        <p>{{faq.answer}}</p>
-      </app-extension-panel>
+      @for (faq of faqItems; track faq.question) {
+        <app-extension-panel 
+          [question]="faq.question" 
+          [questionNumber]="$index + 1">
+          <p>{{faq.answer}}</p>
+        </app-extension-panel>
+      }
       
       <app-extension-panel 
         title="¿Ofrecen integraciones con otros sistemas?" 

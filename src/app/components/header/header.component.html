@@ -1,1 +1,42 @@
-<p>header works!</p>
+<header class="header">
+  <div class="container">
+    <div class="header-content">
+      <!-- Logo -->
+      <div class="logo">
+        <a href="#inicio">
+          <img src="assets/logo.png" alt="SwiftPort Logo" />
+        </a>
+      </div>
+
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-toggle" (click)="toggleMenu()" [class.active]="isMenuOpen">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <!-- Navigation -->
+      <nav class="nav" [class.open]="isMenuOpen">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#inicio" class="nav-button" (click)="closeMenu($event)">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#que-es" class="nav-button" (click)="closeMenu($event)">¿Qué es SwiftPort?</a>
+          </li>
+          <li class="nav-item">
+            <a href="#funcionalidades" class="nav-button" (click)="closeMenu($event)">Funcionalidades</a>
+          </li>
+          <li class="nav-item">
+            <a href="#planes" class="nav-button" (click)="closeMenu($event)">Planes</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Search Box -->
+      <div class="search-box">
+        <input type="text" placeholder="Buscar..." class="search-input" />
+      </div>
+    </div>
+  </div>
+</header>
