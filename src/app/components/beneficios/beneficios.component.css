@@ -3,15 +3,13 @@
   height: fit-content;
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: #f9f9f9;
+  padding: 60px 20px;
 }
 
 .beneficios-title {
-  font-family: Inter;
-  color: black;
-  font-weight: bold;
-  font-size: 50px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .benefits-container {
@@ -19,4 +17,18 @@
   flex-direction: column;
   gap: 40px;
   align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.benefits-container app-benefit {
+  width: 100%;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .beneficios-title {
+    font-size: 45px;
+  }
 }

@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import {
   FuncionalidadesSwiftportComponent
 } from './components/funcionalidades-swiftport/funcionalidades-swiftport.component';
@@ -16,7 +15,6 @@ import { CommonModule } from '@angular/common';
   standalone: true,
   imports: [
     CommonModule,
-    RouterOutlet,
     FuncionalidadesSwiftportComponent,
     BeneficiosComponent,
     WhatComponent,
