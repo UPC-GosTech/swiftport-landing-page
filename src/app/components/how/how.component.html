@@ -1,18 +1,16 @@
 <div class="how-container">
   <div class="text-container">
-    <p class="title">¿Como funciona SwiftPort?</p>
+    <h2 class="title heading-lg">¿Cómo funciona SwiftPort?</h2>
     <div class="steps">
-      <p class="short-text">Paso 1:</p>
-      <p class="long-text">El supervisor crea las tareas y fases de trabajo.</p>
-      <p class="short-text">Paso 2:</p>
-      <p class="long-text">Se asignan recursos según disponibilidad en campo.</p>
-      <p class="short-text">Paso 3:</p>
-      <p class="long-text">Los operarios reciben notificaciones y ejecutan las tareas.</p>
-      <p class="short-text">Paso 4:</p>
-      <p class="long-text">Si hay retrasos o bloqueos, pueden informar en tiempo real.</p>
-      <p class="short-text">Paso 5:</p>
-      <p class="long-text">El supervisor valida, reprograma o reasigna en función del entorno.</p>
+      @for (step of steps; track step) {
+        <p class="short-text">{{step.title}}</p>
+        <p class="long-text">{{step.description}}</p>
+      }
     </div>
   </div>
-  <img class="img-container" src="../../../assets/logo.png" alt="no hay videoooo">
+  
+  <!-- Todavía no hay video :c -->
+  <div class="video-placeholder">
+    <img class="img-container" src="../../../assets/logo.png" alt="SwiftPort">
+  </div>
 </div>

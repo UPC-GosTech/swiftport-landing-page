@@ -1,5 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 
+/* Import Inter font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
 /* Global box-sizing reset */
 *, *::before, *::after {
   box-sizing: border-box;
@@ -12,7 +15,7 @@ body, html {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
-  font-family: Arial, sans-serif;
+  font-family: 'Inter', sans-serif;
   scroll-behavior: smooth;
 }
 
@@ -31,4 +34,99 @@ img {
 html {
   scroll-padding-top: 90px;
 }
+
+/* Typography utility classes */
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 0;
+}
+
+.heading-xl {
+  font-size: 48px;
+}
+
+.heading-lg {
+  font-size: 40px;
+}
+
+.heading-md {
+  font-size: 32px;
+}
+
+.heading-sm {
+  font-size: 24px;
+}
+
+/* Responsive typography */
+@media (max-width: 768px) {
+  .heading-xl {
+    font-size: 36px;
+  }
+  
+  .heading-lg {
+    font-size: 32px;
+  }
+  
+  .heading-md {
+    font-size: 28px;
+  }
+  
+  .heading-sm {
+    font-size: 20px;
+  }
+}
+
+/* Brand color utility */
+.text-brand {
+  color: #EE812C;
+}
+
+.bg-brand {
+  background-color: #EE812C;
+}
+
+/* Accent line utility */
+.accent-line {
+  position: relative;
+}
+
+.accent-line::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background-color: #EE812C;
+  border-radius: 2px;
+}
+
+/* Float animation */
+@keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
 
