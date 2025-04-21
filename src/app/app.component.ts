@@ -7,7 +7,7 @@ import {BeneficiosComponent} from './components/beneficios/beneficios.component'
 import {WhatComponent} from './components/what/what.component';
 import {WhyComponent} from './components/why/why.component';
 import {HowComponent} from './components/how/how.component';
-
+import {FaqComponent} from './components/faq/faq.component';
 @Component({
   selector: 'app-root',
   imports: [
@@ -16,7 +16,8 @@ import {HowComponent} from './components/how/how.component';
     BeneficiosComponent,
     WhatComponent,
     WhyComponent,
-    HowComponent
+    HowComponent,
+    FaqComponent
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
