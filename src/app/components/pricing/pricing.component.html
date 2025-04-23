@@ -1,0 +1,13 @@
+<section class="pricing-section">
+  <h2 class="pricing-title">ELEGI TU PLAN</h2>
+  <p class="pricing-subtitle">"Los mejores planes al mejor precio"</p>
+
+  <div class="pricing-grid">
+    <app-pricing-card
+      *ngFor="let plan of plans"
+      [title]="plan.title"
+      [features]="plan.features"
+      [price]="plan.price">
+    </app-pricing-card>
+  </div>
+</section>
