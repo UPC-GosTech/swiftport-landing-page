@@ -10,6 +10,8 @@ import {FaqComponent} from './components/faq/faq.component';
 import {HeaderComponent} from './components/header/header.component';
 import { CommonModule } from '@angular/common';
 import {FooterComponent} from './components/footer/footer.component';
+import {PricingComponent} from './components/pricing/pricing.component';
+import {ContactComponent} from './components/contact/contact.component';
 
 @Component({
   selector: 'app-root',
@@ -24,6 +26,8 @@ import {FooterComponent} from './components/footer/footer.component';
     FaqComponent,
     HeaderComponent,
     FooterComponent,
+    PricingComponent,
+    ContactComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

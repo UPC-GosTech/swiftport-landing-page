@@ -78,17 +78,17 @@
     gap: 40px;
     padding: 50px 30px;
   }
-  
+
   .text-container {
     width: 100%;
     max-width: 600px;
     align-items: center;
   }
-  
+
   .title {
     text-align: center;
   }
-  
+
   .long-text {
     text-align: center;
   }
@@ -98,12 +98,12 @@
   .title {
     font-size: 32px;
   }
-  
+
   .long-text {
     font-size: 14px;
     padding: 20px;
   }
-  
+
   .img-container {
     width: 220px;
   }
