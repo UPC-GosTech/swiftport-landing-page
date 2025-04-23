@@ -11,6 +11,7 @@ import {HeaderComponent} from './components/header/header.component';
 import { CommonModule } from '@angular/common';
 import {FooterComponent} from './components/footer/footer.component';
 import {PricingComponent} from './components/pricing/pricing.component';
+import {ContactComponent} from './components/contact/contact.component';
 
 @Component({
   selector: 'app-root',
@@ -26,6 +27,7 @@ import {PricingComponent} from './components/pricing/pricing.component';
     HeaderComponent,
     FooterComponent,
     PricingComponent,
+    ContactComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
