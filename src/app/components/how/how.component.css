@@ -34,7 +34,7 @@
 
 .title {
   color: white;
-  font-size: 42px;
+  font-size: 50px;
   text-align: left;
   margin-bottom: 25px;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
@@ -96,20 +96,20 @@
     padding: 50px 30px;
     text-align: center;
   }
-  
+
   .text-container {
     width: 100%;
     max-width: 600px;
   }
-  
+
   .title {
     text-align: center;
   }
-  
+
   .steps {
     width: 100%;
   }
-  
+
   .video-placeholder {
     width: 300px;
     height: 300px;
@@ -120,15 +120,15 @@
   .title {
     font-size: 32px;
   }
-  
+
   .short-text {
     font-size: 16px;
   }
-  
+
   .long-text {
     font-size: 14px;
   }
-  
+
   .video-placeholder {
     width: 280px;
     height: 280px;
