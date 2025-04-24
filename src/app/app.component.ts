@@ -12,6 +12,7 @@ import { CommonModule } from '@angular/common';
 import {FooterComponent} from './components/footer/footer.component';
 import {PricingComponent} from './components/pricing/pricing.component';
 import {ContactComponent} from './components/contact/contact.component';
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -34,4 +35,9 @@ import {ContactComponent} from './components/contact/contact.component';
 })
 export class AppComponent {
   title = 'swiftport-landing-page';
+  constructor(private translate: TranslateService) {
+    this.translate.addLangs(['en', 'es']);
+    this.translate.setDefaultLang('en');
+    this.translate.use('en');
+  }
 }
