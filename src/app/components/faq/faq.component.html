@@ -1,25 +1,25 @@
 <section class="faq-section">
   <div class="container">
-    <h2 class="section-title">Preguntas Frecuentes</h2>
-    
+    <h2 class="section-title">{{ 'faq.title' | translate }}</h2>
+
     <div class="faq-container">
 
       @for (faq of faqItems; track faq.question) {
-        <app-extension-panel 
-          [question]="faq.question" 
+        <app-extension-panel
+          [question]="faq.question"
           [questionNumber]="$index + 1">
           <p>{{faq.answer}}</p>
         </app-extension-panel>
       }
-      
-      <app-extension-panel 
-        title="¿Ofrecen integraciones con otros sistemas?" 
+
+      <app-extension-panel
+        title="6.¿Ofrecen integraciones con otros sistemas?"
         content="Sí, SwiftPort se integra con los principales ERP, CRM y sistemas de gestión de almacenes a través de APIs. También ofrecemos integraciones personalizadas para sistemas propietarios."
         theme="light">
       </app-extension-panel>
-      
-      <app-extension-panel 
-        title="¿Cómo empezar con SwiftPort?" 
+
+      <app-extension-panel
+        title="7.¿Cómo empezar con SwiftPort?"
         theme="dark">
         <div class="getting-started">
             <img src="../../../assets/logo.png" alt="faq-image">

@@ -1,12 +1,14 @@
 import { Component } from '@angular/core';
 import {PricingCardComponent} from '../../share/pricing-card/pricing-card.component';
 import {NgForOf} from '@angular/common';
+import {TranslatePipe} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-pricing',
   imports: [
     PricingCardComponent,
-    NgForOf
+    NgForOf,
+    TranslatePipe
   ],
   templateUrl: './pricing.component.html',
   styleUrl: './pricing.component.css'

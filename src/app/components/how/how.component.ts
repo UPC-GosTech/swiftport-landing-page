@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
+import {TranslatePipe} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-how',
-  imports: [],
+  imports: [
+    TranslatePipe
+  ],
   templateUrl: './how.component.html',
   styleUrl: './how.component.css'
 })

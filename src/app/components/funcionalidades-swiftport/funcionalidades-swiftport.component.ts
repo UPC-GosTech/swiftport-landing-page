@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { FunctionComponent } from '../../share/function/function.component';
 import { CommonModule } from '@angular/common';
+import {TranslatePipe} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-funcionalidades-swiftport',
   standalone: true,
-  imports: [FunctionComponent, CommonModule],
+  imports: [FunctionComponent, CommonModule, TranslatePipe],
   templateUrl: './funcionalidades-swiftport.component.html',
   styleUrl: './funcionalidades-swiftport.component.css'
 })

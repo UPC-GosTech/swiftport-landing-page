@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
+import {TranslatePipe} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-why',
-  imports: [],
+  imports: [
+    TranslatePipe
+  ],
   templateUrl: './why.component.html',
   styleUrl: './why.component.css'
 })

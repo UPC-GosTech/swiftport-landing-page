@@ -2,19 +2,17 @@
   <div class="contact-container">
 
     <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="contact-form">
-      <h2>Contacto</h2>
-      <input formControlName="name" type="text" placeholder="Nombre" />
-      <input formControlName="email" type="email" placeholder="Correo electrónico" />
-      <textarea formControlName="message" placeholder="Escribe tu mensaje..." rows="5"></textarea>
-      <button type="submit">Enviar</button>
+      <h2>{{ 'contact.title' | translate }}</h2>
+      <input formControlName="name" type="text" placeholder="{{ 'contact.name' | translate }}" />
+      <input formControlName="email" type="email" placeholder="{{ 'contact.email' | translate }}" />
+      <textarea formControlName="message" placeholder="{{ 'contact.message' | translate }}" rows="5"></textarea>
+      <button type="submit">{{ 'contact.send' | translate }}</button>
     </form>
 
     <div class="contact-info">
-      <h3>Contactate con Nosotros:</h3>
+      <h3>{{ 'contact.us' | translate }}</h3>
       <p>
-        También puedes ponerte en contacto con nosotros a través de nuestras redes sociales,
-        correo electrónico o número telefónico. Estaremos encantados de responder todas tus
-        consultas y brindarte la asistencia que necesites.
+        {{ 'contact.text' | translate }}
       </p>
       <p>📧 SwiftPort&#64;gmail.com</p>
       <p>📞 +51 956 516 667</p>

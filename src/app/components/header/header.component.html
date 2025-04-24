@@ -19,23 +19,23 @@
       <nav class="nav" [class.open]="isMenuOpen">
         <ul class="nav-list">
           <li class="nav-item">
-            <a href="#inicio" class="nav-button" (click)="closeMenu($event)">Inicio</a>
+            <a href="#inicio" class="nav-button" (click)="closeMenu($event)">{{ 'header.start' | translate }}</a>
           </li>
           <li class="nav-item">
-            <a href="#que-es" class="nav-button" (click)="closeMenu($event)">¿Qué es SwiftPort?</a>
+            <a href="#que-es" class="nav-button" (click)="closeMenu($event)">{{ 'header.what' | translate }}?</a>
           </li>
           <li class="nav-item">
-            <a href="#funcionalidades" class="nav-button" (click)="closeMenu($event)">Funcionalidades</a>
+            <a href="#funcionalidades" class="nav-button" (click)="closeMenu($event)">{{ 'header.functions' | translate }}</a>
           </li>
           <li class="nav-item">
-            <a href="#planes" class="nav-button" (click)="closeMenu($event)">Planes</a>
+            <a href="#planes" class="nav-button" (click)="closeMenu($event)">{{ 'header.plans' | translate }}</a>
           </li>
         </ul>
       </nav>
 
       <!-- Search Box -->
       <div class="search-box">
-        <input type="text" placeholder="Buscar..." class="search-input" />
+        <input type="text" placeholder="{{ 'header.search' | translate }}" class="search-input" />
       </div>
     </div>
   </div>

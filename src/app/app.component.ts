@@ -13,6 +13,7 @@ import {FooterComponent} from './components/footer/footer.component';
 import {PricingComponent} from './components/pricing/pricing.component';
 import {ContactComponent} from './components/contact/contact.component';
 import {TranslateService} from '@ngx-translate/core';
+import {LanguageSwitcherComponent} from './components/language-switcher/language-switcher.component';
 
 @Component({
   selector: 'app-root',
@@ -29,6 +30,7 @@ import {TranslateService} from '@ngx-translate/core';
     FooterComponent,
     PricingComponent,
     ContactComponent,
+    LanguageSwitcherComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

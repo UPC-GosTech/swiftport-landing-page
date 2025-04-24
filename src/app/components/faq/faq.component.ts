@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ExtensionPanelComponent } from '../../share/extension-panel/extension-panel.component';
+import {TranslatePipe} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-faq',
   standalone: true,
-  imports: [CommonModule, ExtensionPanelComponent],
+  imports: [CommonModule, ExtensionPanelComponent, TranslatePipe],
   templateUrl: './faq.component.html',
   styleUrl: './faq.component.css'
 })
@@ -32,5 +33,5 @@ export class FaqComponent {
       answer: 'Puedes desplegar un piloto funcional en menos de 2 semanas y comenzar a obtener datos de tus operaciones desde el primer mes.'
     }
   ];
-  
+
 }

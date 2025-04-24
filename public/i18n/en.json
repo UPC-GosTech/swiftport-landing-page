@@ -1,0 +1,56 @@
+{
+  "contact": {
+    "title": "Contact",
+    "name": "Name",
+    "email": "Email",
+    "message": "Write your message...",
+    "send": "Submit",
+    "us": "Get in contact with us",
+    "text": "You can also get in touch with us through our social media, email, or phone number. We will be happy to answer all your inquiries and provide you with the assistance you need."
+  },
+  "faq": {
+    "title": "Frequently Ask Questions"
+  },
+  "footer": {
+    "links": "Links",
+    "us": "About us",
+    "functions": "Functions",
+    "benefits": "Benefits",
+    "how": "How does it work?",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "email": "Email: ",
+    "telf": "Phone number: ",
+    "follow": "Follow us",
+    "solution": "Your fast, simple, and efficient logistics solution."
+  },
+  "functions": {
+    "title": "SwiftPort Functionalities",
+    "subtitle": "Powerful solutions to optimize your logistics operations"
+  },
+  "header": {
+    "start": "Start",
+    "what": "What's SwiftPort",
+    "functions": "Functionalities",
+    "plans": "Plans",
+    "search": "Search..."
+  },
+  "how": {
+    "title": "How does Swiftport work?"
+  },
+  "pricing": {
+    "title": "Choose your plan",
+    "subtitle": "The best plans at the best price"
+  },
+  "what": {
+    "title": "Why was SwiftPort created?",
+    "text1": "SwiftPort is a comprehensive digital transformation solution designed to optimize the planning, coordination, and supervision of logistics processes in operational areas that are difficult to access or highly complex, such as oil fields, mining operations, or remote energy facilities.",
+    "text2": "Through the SwiftPort platform, companies can centrally manage all logistics tasks: from creating and assigning activities to monitoring them in the field. This tool combines intuitive interfaces with technologies such as simulated IoT, real-time monitoring, and collaborative dashboards, providing complete visibility of the operation."
+  },
+  "why": {
+    "title": "What is SwiftPort?",
+    "text1": "Industries operating in remote areas, such as mining, oil, or energy, face a series of complex logistical challenges on a daily basis. Hostile and unpredictable environments, changing weather conditions, technical equipment prone to failures, and the constant turnover of personnel make maintaining operational continuity a difficult task.",
+    "text2": "This is further compounded by the lack of proper tools to provide traceability, real-time visibility, and truly adaptable planning.",
+    "text3": "In this context, SwiftPort was born as a response to the urgent need to organize operational chaos and provide a solution capable of centralizing logistics management, even in the most demanding scenarios."
+  }
+}
