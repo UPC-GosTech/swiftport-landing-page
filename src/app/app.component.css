@@ -24,12 +24,9 @@ body {
   }
 }
 
-/* Styling for section containers */
 .section-container {
   padding: 10px 0;
   margin: 0;
   border-bottom: none;
-  /* min-height comentado para eliminar espacios excesivos */
 }
 
-/* Leave header and footer with their own styles */

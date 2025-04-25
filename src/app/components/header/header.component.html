@@ -19,24 +19,25 @@
       <nav class="nav" [class.open]="isMenuOpen">
         <ul class="nav-list">
           <li class="nav-item">
-            <a href="#inicio" class="nav-button" (click)="closeMenu($event)">{{ 'header.start' | translate }}</a>
+            <a href="#presentation" class="nav-button" (click)="closeMenu($event)">{{ 'header.start' | translate }}</a>
           </li>
           <li class="nav-item">
-            <a href="#que-es" class="nav-button" (click)="closeMenu($event)">{{ 'header.what' | translate }}?</a>
+            <a href="#what" class="nav-button" (click)="closeMenu($event)">{{ 'header.what' | translate }}?</a>
           </li>
           <li class="nav-item">
-            <a href="#funcionalidades" class="nav-button" (click)="closeMenu($event)">{{ 'header.functions' | translate }}</a>
+            <a href="#features" class="nav-button" (click)="closeMenu($event)">{{ 'header.functions' | translate }}</a>
           </li>
           <li class="nav-item">
-            <a href="#planes" class="nav-button" (click)="closeMenu($event)">{{ 'header.plans' | translate }}</a>
+            <a href="#pricing" class="nav-button" (click)="closeMenu($event)">{{ 'header.plans' | translate }}</a>
           </li>
         </ul>
       </nav>
 
-      <!-- Search Box -->
-      <div class="search-box">
-        <input type="text" placeholder="{{ 'header.search' | translate }}" class="search-input" />
-      </div>
+      <!-- Login Button -->
+      <button class="login-button" (click)="closeMenu($event)">
+        <i class="fas fa-sign-in-alt"></i>
+        {{ 'header.login' | translate }}
+      </button>
     </div>
   </div>
 </header>

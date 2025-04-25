@@ -3,11 +3,12 @@
   <p class="pricing-subtitle">{{ 'pricing.subtitle' | translate }}</p>
 
   <div class="pricing-grid">
+    @for (plan of plans; track plan.title) {
     <app-pricing-card
-      *ngFor="let plan of plans"
       [title]="plan.title"
       [features]="plan.features"
       [price]="plan.price">
     </app-pricing-card>
+    }
   </div>
 </section>
