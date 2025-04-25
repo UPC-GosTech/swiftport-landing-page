@@ -1,39 +1,100 @@
 .pricing-card {
-  background-color: #E6801A;
-  border-radius: 12px;
-  padding: 24px;
+  background: linear-gradient(145deg, #ffffff, #f8f8f8);
+  border-radius: 16px;
+  padding: 30px;
   width: 300px;
-  color: white;
+  color: #333;
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(230, 128, 26, 0.1);
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(230, 128, 26, 0.2);
+}
+
+.pricing-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 6px;
+  background-color: #E6801A;
 }
 
 .plan-title {
-  font-size: 30px;
-  margin-bottom: 16px;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #E6801A;
+  font-weight: 700;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .plan-features {
   list-style: none;
-  padding: 20px;
-  padding-top: 0px ;
-  text-align: left;
-  margin-bottom: 20px;
-  font-size: 17px;
+  padding: 0;
+  margin: 25px 0;
+  width: 100%;
+  font-size: 16px;
   line-height: 1.6;
-  text-align: left;
+}
 
+.plan-features li {
+  padding: 12px 0;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: flex-start;
+  color: #555;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.05);
+}
+
+.plan-features li:last-child {
+  border-bottom: none;
 }
 
 .price-btn {
-  background-color: white;
-  color: #E6801A;
+  background-color: #E6801A;
+  color: white;
   font-weight: bold;
-  padding: 10px 24px;
+  padding: 12px 30px;
   border: none;
-  border-radius: 20px;
+  border-radius: 30px;
   cursor: pointer;
-  font-size: 17px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  margin-top: 15px;
+  width: 100%;
+  box-shadow: 0 4px 15px rgba(230, 128, 26, 0.3);
+}
+
+.price-btn:hover {
+  background-color: #d67516;
+  box-shadow: 0 6px 20px rgba(230, 128, 26, 0.4);
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .pricing-card {
+    width: 280px;
+    padding: 25px;
+  }
+  
+  .plan-title {
+    font-size: 24px;
+  }
+  
+  .plan-features {
+    font-size: 15px;
+  }
 }
