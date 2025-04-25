@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import {
   FuncionalidadesSwiftportComponent
 } from './components/funcionalidades-swiftport/funcionalidades-swiftport.component';
+import {PresentationComponent} from './components/presentation/presentation.component';
 import {BeneficiosComponent} from './components/beneficios/beneficios.component';
 import {WhatComponent} from './components/what/what.component';
 import {WhyComponent} from './components/why/why.component';
@@ -20,6 +21,7 @@ import {LanguageSwitcherComponent} from './components/language-switcher/language
   standalone: true,
   imports: [
     CommonModule,
+    PresentationComponent,
     FuncionalidadesSwiftportComponent,
     BeneficiosComponent,
     WhatComponent,

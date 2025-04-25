@@ -31,3 +31,5 @@ body {
   border-bottom: none;
   /* min-height comentado para eliminar espacios excesivos */
 }
+
+/* Leave header and footer with their own styles */

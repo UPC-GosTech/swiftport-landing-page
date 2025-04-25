@@ -38,6 +38,12 @@
   "how": {
     "title": "¿Cómo funciona SwiftPort?"
   },
+  "presentation": {
+    "callToAction": "Únete a la revolución logística del futuro y transforma la forma en que gestionas tus operaciones",
+    "demoButton": "Solicita una demo",
+    "tagline": "Optimiza tu logística con tecnología inteligente",
+    "description": "Tu operación en orden, en todo momento"
+  },
   "pricing": {
     "title": "Elegí tu plan",
     "subtitle": "Los mejores planes al mejor precioe"

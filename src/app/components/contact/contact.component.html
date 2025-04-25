@@ -3,28 +3,45 @@
 
     <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="contact-form">
       <h2>{{ 'contact.title' | translate }}</h2>
-      <input formControlName="name" type="text" placeholder="{{ 'contact.name' | translate }}" />
-      <input formControlName="email" type="email" placeholder="{{ 'contact.email' | translate }}" />
-      <textarea formControlName="message" placeholder="{{ 'contact.message' | translate }}" rows="5"></textarea>
+      
+      <div class="form-group">
+        <input formControlName="name" type="text" placeholder="{{ 'contact.name' | translate }}" />
+      </div>
+      
+      <div class="form-group">
+        <input formControlName="email" type="email" placeholder="{{ 'contact.email' | translate }}" />
+      </div>
+      
+      <div class="form-group">
+        <textarea formControlName="message" placeholder="{{ 'contact.message' | translate }}" rows="5"></textarea>
+      </div>
+      
       <button type="submit">{{ 'contact.send' | translate }}</button>
     </form>
 
     <div class="contact-info">
       <h3>{{ 'contact.us' | translate }}</h3>
+      
       <p>
         {{ 'contact.text' | translate }}
       </p>
-      <p>📧 SwiftPort&#64;gmail.com</p>
-      <p>📞 +51 956 516 667</p>
+      
+      <p>
+        <strong>📧</strong> SwiftPort&#64;gmail.com
+      </p>
+      
+      <p>
+        <strong>📞</strong> +51 956 516 667
+      </p>
 
       <div class="social-icons">
-        <a href="https://www.facebook.com/SwiftPort" target="_blank">
+        <a href="https://www.facebook.com/SwiftPort" target="_blank" aria-label="Facebook">
           <img src="assets/logo-facebook.png" alt="Facebook" />
         </a>
-        <a href="https://twitter.com/SwiftPort" target="_blank">
+        <a href="https://twitter.com/SwiftPort" target="_blank" aria-label="X">
           <img src="assets/logo-x.png" alt="X" />
         </a>
-        <a href="https://www.instagram.com/SwiftPort" target="_blank">
+        <a href="https://www.instagram.com/SwiftPort" target="_blank" aria-label="Instagram">
           <img src="assets/logo-instagram.png" alt="Instagram" />
         </a>
       </div>
