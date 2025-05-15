@@ -1,12 +1,23 @@
-<div class="presentation-container">
-  <div class="presentation-left">
-    <p class="call-to-action">{{ 'presentation.callToAction' | translate }}</p>
-    <button class="demo-btn">{{ 'presentation.demoButton' | translate }}</button>
-  </div>
+<section class="presentation-section" id="presentation">
+  <div id="particles-js" class="particles-container"></div>
   
-  <div class="presentation-right">
-    <p class="tagline">{{ 'presentation.tagline' | translate }}</p>
-    <h1 class="brand-name">SwiftPort</h1>
-    <p class="brand-description">{{ 'presentation.description' | translate }}</p>
+  <div class="presentation-container">
+    <div class="presentation-content">
+      <div class="presentation-left">
+        <h1 class="main-title">{{ 'presentation.callToAction' | translate }}</h1>
+        <p class="subtitle">{{ 'presentation.description' | translate }}</p>
+        <div class="cta-buttons">
+          <button class="primary-btn">{{ 'presentation.demoButton' | translate }}</button>
+          <button class="secondary-btn">{{ 'presentation.tagline' | translate }}</button>
+        </div>
+        <p class="trust-badge">{{ 'presentation.subDescription' | translate }}</p>
+      </div>
+      
+      <div class="presentation-right">
+        <div class="hero-image">
+          <img src="assets/logo.png" alt="SwiftPort Logo" />
+        </div>
+      </div>
+    </div>
   </div>
-</div>
+</section>

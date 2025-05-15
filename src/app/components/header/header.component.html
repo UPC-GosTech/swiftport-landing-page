@@ -9,7 +9,7 @@
       </div>
 
       <!-- Mobile Menu Button -->
-      <button class="mobile-menu-toggle" (click)="toggleMenu()" [class.active]="isMenuOpen">
+      <button class="mobile-menu-toggle" (click)="toggleMenu()" [class.active]="isMenuOpen" aria-label="Toggle menu">
         <span></span>
         <span></span>
         <span></span>
@@ -19,25 +19,30 @@
       <nav class="nav" [class.open]="isMenuOpen">
         <ul class="nav-list">
           <li class="nav-item">
-            <a href="#presentation" class="nav-button" (click)="closeMenu($event)">{{ 'header.start' | translate }}</a>
+            <a href="#presentation" class="nav-link" (click)="closeMenu($event)">{{ 'header.start' | translate }}</a>
           </li>
           <li class="nav-item">
-            <a href="#what" class="nav-button" (click)="closeMenu($event)">{{ 'header.what' | translate }}?</a>
+            <a href="#what" class="nav-link" (click)="closeMenu($event)">{{ 'header.what' | translate }}?</a>
           </li>
           <li class="nav-item">
-            <a href="#features" class="nav-button" (click)="closeMenu($event)">{{ 'header.functions' | translate }}</a>
+            <a href="#features" class="nav-link" (click)="closeMenu($event)">{{ 'header.functions' | translate }}</a>
           </li>
           <li class="nav-item">
-            <a href="#pricing" class="nav-button" (click)="closeMenu($event)">{{ 'header.plans' | translate }}</a>
+            <a href="#pricing" class="nav-link" (click)="closeMenu($event)">{{ 'header.plans' | translate }}</a>
           </li>
         </ul>
       </nav>
 
-      <!-- Login Button -->
-      <button class="login-button" (click)="closeMenu($event)">
-        <i class="fas fa-sign-in-alt"></i>
-        {{ 'header.login' | translate }}
-      </button>
+      <!-- Right Section -->
+      <div class="header-right">
+        <!-- Language Switcher -->
+        <app-language-switcher class="language-switcher"></app-language-switcher>
+        <!-- Login Button -->
+        <button class="login-button" (click)="closeMenu($event)">
+          <i class="fas fa-sign-in-alt"></i>
+          {{ 'header.login' | translate }}
+        </button>
+      </div>
     </div>
   </div>
 </header>

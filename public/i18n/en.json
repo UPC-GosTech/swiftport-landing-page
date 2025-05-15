@@ -9,7 +9,36 @@
     "text": "You can also get in touch with us through our social media, email, or phone number. We will be happy to answer all your inquiries and provide you with the assistance you need."
   },
   "faq": {
-    "title": "Frequently Ask Questions"
+    "title": "Frequently Asked Questions",
+    "questions": {
+      "q1": {
+        "question": "What types of companies can use SwiftPort?",
+        "answer": "SwiftPort is designed for any company operating in the port sector, from small shipping companies to large logistics operators."
+      },
+      "q2": {
+        "question": "How long does implementation take?",
+        "answer": "Basic implementation can be completed in as little as 2 weeks, depending on the complexity of your operation."
+      },
+      "q3": {
+        "question": "Do you offer technical support?",
+        "answer": "Yes, we offer 24/7 technical support and team training."
+      },
+      "q4": {
+        "question": "Do you offer integrations with other systems?",
+        "answer": "Yes, SwiftPort integrates with major ERP, CRM, and warehouse management systems through APIs. We also offer custom integrations for proprietary systems."
+      },
+      "q5": {
+        "question": "How do I get started with SwiftPort?",
+        "answer": {
+          "start": "Getting started with SwiftPort is very simple:",
+          "step1": "Contact our sales team",
+          "step2": "Configure your account according to your needs",
+          "step3": "Import your data or start from scratch",
+          "step4": "Train your team with our resources",
+          "end": "The entire process typically takes less than a week for basic implementations."
+        }
+      }
+    }
   },
   "footer": {
     "links": "Links",
@@ -36,17 +65,72 @@
     "login": "Login"
   },
   "how": {
-    "title": "How does Swiftport work?"
+    "title": "How does SwiftPort work?",
+    "steps": {
+      "step1": {
+        "title": "Step 1",
+        "description": "The supervisor creates tasks and work phases."
+      },
+      "step2": {
+        "title": "Step 2",
+        "description": "Resources are assigned based on field availability."
+      },
+      "step3": {
+        "title": "Step 3",
+        "description": "Operators receive notifications and execute tasks."
+      },
+      "step4": {
+        "title": "Step 4",
+        "description": "If there are delays or blockages, they can report in real-time."
+      },
+      "step5": {
+        "title": "Step 5",
+        "description": "The supervisor validates, reschedules, or reassigns based on the environment."
+      }
+    }
   },
   "presentation": {
-    "callToAction": "Join the logistics revolution of the future and transform the way you manage your operations",
-    "demoButton": "Request a demo",
-    "tagline": "Optimize your logistics with intelligent technology",
-    "description": "Your operation in order, at all times"
+    "callToAction": "Transform Your Logistics Operations with Smart Technology",
+    "demoButton": "Start Free Trial",
+    "tagline": "The Future of Logistics Management",
+    "description": "Streamline your operations with real-time tracking, predictive analytics, and intelligent automation. Experience the power of next-generation logistics management.",
+    "subDescription": "Trusted by leading companies in mining, oil, and energy sectors"
   },
   "pricing": {
     "title": "Choose your plan",
-    "subtitle": "The best plans at the best price"
+    "subtitle": "The best plans at the best price",
+    "plans": {
+      "basic": {
+        "title": "Basic Plan",
+        "features": {
+          "f1": "Up to 50 tasks/month",
+          "f2": "Limited reports",
+          "f3": "1 supervisor user",
+          "f4": "Support"
+        },
+        "price": "$50"
+      },
+      "pro": {
+        "title": "Pro Plan",
+        "features": {
+          "f1": "Up to 500 tasks/month",
+          "f2": "Limited reports",
+          "f3": "2 supervisor users",
+          "f4": "Support"
+        },
+        "price": "$100"
+      },
+      "enterprise": {
+        "title": "Enterprise Plan",
+        "features": {
+          "f1": "Unlimited tasks",
+          "f2": "ERP integration",
+          "f3": "Unlimited users",
+          "f4": "Priority support"
+        },
+        "price": "$250"
+      }
+    }
   },
   "what": {
     "title": "Why was SwiftPort created?",
@@ -58,5 +142,23 @@
     "text1": "Industries operating in remote areas, such as mining, oil, or energy, face a series of complex logistical challenges on a daily basis. Hostile and unpredictable environments, changing weather conditions, technical equipment prone to failures, and the constant turnover of personnel make maintaining operational continuity a difficult task.",
     "text2": "This is further compounded by the lack of proper tools to provide traceability, real-time visibility, and truly adaptable planning.",
     "text3": "In this context, SwiftPort was born as a response to the urgent need to organize operational chaos and provide a solution capable of centralizing logistics management, even in the most demanding scenarios."
+  },
+  "benefits": {
+    "title": "SwiftPort Benefits",
+    "subtitle": "Optimize your logistics operations with our solutions",
+    "items": {
+      "centralization": {
+        "title": "Centralization",
+        "description": "Organize all your logistics operations from a single place. SwiftPort allows you to create tasks, establish process phases, and assign responsibilities easily, ensuring clear planning without overlaps."
+      },
+      "collaboration": {
+        "title": "Effective Collaboration",
+        "description": "Supervisors and operators work in sync. Each role has access to specific information and actions, promoting collaboration without creating operational chaos."
+      },
+      "reporting": {
+        "title": "Real-time Reporting",
+        "description": "Reporting field issues has never been easier. Operators can record incidents and supervisors can assign them for resolution without interruptions."
+      }
+    }
   }
 }
