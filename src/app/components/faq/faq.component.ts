@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ExtensionPanelComponent } from '../../share/extension-panel/extension-panel.component';
-import {TranslatePipe} from '@ngx-translate/core';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-faq',
@@ -13,24 +13,24 @@ import {TranslatePipe} from '@ngx-translate/core';
 export class FaqComponent {
   faqItems = [
     {
-      question: '¿Qué es SwiftPort y para quién es?',
-      answer: 'SwiftPort es una plataforma que facilita la planificación, asignación y supervisión de actividades logísticas de campo, ideal para empresas que operan en zonas remotas con vehículos y cuadrillas de trabajo.'
+      question: 'faq.questions.q1.question',
+      answer: 'faq.questions.q1.answer'
     },
     {
-      question: '¿Cómo obtengo visibilidad en tiempo real de mis operaciones?',
-      answer: 'Utilizamos simulaciones de IoT (GPS, estado de maquinaria y condiciones ambientales) que se actualizan periódicamente en el panel de control, mostrando el avance y posibles incidencias en cada tarea.'
+      question: 'faq.questions.q2.question',
+      answer: 'faq.questions.q2.answer'
     },
     {
-      question: '¿Cómo maneja SwiftPort los imprevistos en campo?',
-      answer: 'SwiftPort detecta desviaciones (clima, fallas mecánicas, retrasos) y ofrece una interfaz rápida para reprogramar tareas y notificar automáticamente a los equipos afectados.'
+      question: 'faq.questions.q3.question',
+      answer: 'faq.questions.q3.answer'
     },
     {
-      question: '¿SwiftPort se adapta a mi tamaño de operación?',
-      answer: 'Sí, nuestra arquitectura modular escala desde flotas y equipos pequeños hasta implementaciones más grandes sin afectar el rendimiento ni la usabilidad.'
+      question: 'faq.questions.q4.question',
+      answer: 'faq.questions.q4.answer'
     },
     {
-      question: '¿En cuánto tiempo puedo iniciar un piloto?',
-      answer: 'Puedes desplegar un piloto funcional en menos de 2 semanas y comenzar a obtener datos de tus operaciones desde el primer mes.'
+      question: 'faq.questions.q5.question',
+      answer: 'faq.questions.q5.answer'
     }
   ];
 

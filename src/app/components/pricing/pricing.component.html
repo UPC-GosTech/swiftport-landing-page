@@ -5,9 +5,9 @@
   <div class="pricing-grid">
     @for (plan of plans; track plan.title) {
     <app-pricing-card
-      [title]="plan.title"
-      [features]="plan.features"
-      [price]="plan.price">
+      [title]="plan.title | translate"
+      [features]="getTranslatedFeatures(plan.features)"
+      [price]="plan.price | translate">
     </app-pricing-card>
     }
   </div>

@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
-import {TranslatePipe} from '@ngx-translate/core';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-how',
+  standalone: true,
   imports: [
     TranslatePipe
   ],
@@ -12,24 +13,24 @@ import {TranslatePipe} from '@ngx-translate/core';
 export class HowComponent {
   steps = [
     {
-      title: 'Paso 1',
-      description: 'El supervisor crea las tareas y fases de trabajo.'
+      title: 'how.steps.step1.title',
+      description: 'how.steps.step1.description'
     },
     {
-      title: 'Paso 2',
-      description: 'Se asignan recursos según disponibilidad en campo.'
+      title: 'how.steps.step2.title',
+      description: 'how.steps.step2.description'
     },
     {
-      title: 'Paso 3',
-      description: 'Los operarios reciben notificaciones y ejecutan las tareas.'
+      title: 'how.steps.step3.title',
+      description: 'how.steps.step3.description'
     },
     {
-      title: 'Paso 4',
-      description: 'Si hay retrasos o bloqueos, pueden informar en tiempo real.'
+      title: 'how.steps.step4.title',
+      description: 'how.steps.step4.description'
     },
     {
-      title: 'Paso 5',
-      description: 'El supervisor valida, reprograma o reasigna en función del entorno.'
+      title: 'how.steps.step5.title',
+      description: 'how.steps.step5.description'
     }
   ];
 }

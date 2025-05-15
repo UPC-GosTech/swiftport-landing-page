@@ -1,8 +1,9 @@
-<div class="benefit-container">
-  <div class="picture-container">
-    <img [src]="image" alt="Benefit icon">
+<div class="benefit-card">
+  <div class="benefit-icon">
+    <img [src]="image" [alt]="title">
   </div>
-  <div class="text-container">
-    <p>{{ text }}</p>
+  <div class="benefit-content">
+    <h3 class="benefit-title">{{ title | translate }}</h3>
+    <p class="benefit-description">{{ description | translate }}</p>
   </div>
 </div>

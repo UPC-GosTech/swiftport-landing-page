@@ -3,8 +3,8 @@
     <h2 class="title heading-lg">{{ 'how.title' | translate }}</h2>
     <div class="steps">
       @for (step of steps; track step) {
-        <p class="short-text">{{step.title}}</p>
-        <p class="long-text">{{step.description}}</p>
+        <p class="short-text">{{ step.title | translate }}</p>
+        <p class="long-text">{{ step.description | translate }}</p>
       }
     </div>
   </div>
