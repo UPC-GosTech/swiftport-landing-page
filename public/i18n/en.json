@@ -29,14 +29,7 @@
       },
       "q5": {
         "question": "How do I get started with SwiftPort?",
-        "answer": {
-          "start": "Getting started with SwiftPort is very simple:",
-          "step1": "Contact our sales team",
-          "step2": "Configure your account according to your needs",
-          "step3": "Import your data or start from scratch",
-          "step4": "Train your team with our resources",
-          "end": "The entire process typically takes less than a week for basic implementations."
-        }
+        "answer": "You can deploy a functional pilot in less than 2 weeks and start gathering data from your operations within the first month."
       }
     }
   },
