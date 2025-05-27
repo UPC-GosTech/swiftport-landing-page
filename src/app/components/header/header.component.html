@@ -38,10 +38,12 @@
         <!-- Language Switcher -->
         <app-language-switcher class="language-switcher"></app-language-switcher>
         <!-- Login Button -->
-        <button class="login-button" (click)="closeMenu($event)">
-          <i class="fas fa-sign-in-alt"></i>
-          {{ 'header.login' | translate }}
-        </button>
+        <a href="https://yellow-flower-081ba590f.6.azurestaticapps.net" class="login-btn">
+          <button class="login-button" (click)="closeMenu($event)">
+            <i class="fas fa-sign-in-alt"></i>
+            {{ 'header.login' | translate }}
+          </button>
+        </a>
       </div>
     </div>
   </div>

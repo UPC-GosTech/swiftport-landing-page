@@ -123,6 +123,10 @@
   font-size: 0.875rem;
 }
 
+.login-btn {
+  text-decoration: none;
+}
+
 /* Search box styles */
 .search-box {
   position: relative;
@@ -180,7 +184,7 @@
   .nav-link {
     font-size: 0.875rem;
   }
-  
+
   .header-content {
     gap: var(--spacing-4);
   }
@@ -190,7 +194,7 @@
   .mobile-menu-toggle {
     display: block;
   }
-  
+
   .nav {
     position: fixed;
     top: 80px;
@@ -202,31 +206,31 @@
     transition: height var(--transition-normal);
     box-shadow: var(--shadow-md);
   }
-  
+
   .nav.open {
     height: auto;
   }
-  
+
   .nav-list {
     flex-direction: column;
     padding: var(--spacing-4);
     gap: var(--spacing-2);
   }
-  
+
   .nav-item {
     width: 100%;
   }
-  
+
   .nav-link {
     display: block;
     padding: var(--spacing-3);
     text-align: center;
   }
-  
+
   .header-right {
     display: none;
   }
-  
+
   .nav.open + .header-right {
     display: flex;
     flex-direction: column;
@@ -234,7 +238,7 @@
     padding: var(--spacing-4);
     gap: var(--spacing-4);
   }
-  
+
   .login-button {
     width: 100%;
     justify-content: center;
@@ -245,11 +249,11 @@
   .header-content {
     height: 70px;
   }
-  
+
   .logo img {
     height: 35px;
   }
-  
+
   .nav {
     top: 70px;
   }
