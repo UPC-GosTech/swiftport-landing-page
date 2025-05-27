@@ -48,7 +48,37 @@
   },
   "functions": {
     "title": "SwiftPort Functionalities",
-    "subtitle": "Powerful solutions to optimize your logistics operations"
+    "subtitle": "Powerful solutions to optimize your logistics operations",
+    "list": {
+      "item1": {
+        "title": "Smart Planning",
+        "description": "Create tasks, define phases, and group activities."
+      },
+      "item2": {
+        "title": "Effective Assignment",
+        "description": "Distribute tasks based on real availability of staff and resources."
+      },
+      "item3": {
+        "title": "Real-time Monitoring",
+        "description": "GPS tracking and integration with weather or failure alerts."
+      },
+      "item4": {
+        "title": "Rescheduling",
+        "description": "Allows modifying schedules and logistic tasks in real time."
+      },
+      "item5": {
+        "title": "Incident Management",
+        "description": "Direct reports from the field with validation and assignment options."
+      },
+      "item6": {
+        "title": "Performance Visibility",
+        "description": "Visibility of tasks, blockages, downtime, and compliance."
+      },
+      "item7": {
+        "title": "Operational Flexibility",
+        "description": "Requests for rescheduling and status updates on site."
+      }
+    }
   },
   "header": {
     "start": "Start",
