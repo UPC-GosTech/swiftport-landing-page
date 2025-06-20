@@ -62,7 +62,8 @@
     "what": "What's SwiftPort",
     "functions": "Functionalities",
     "plans": "Plans",
-    "login": "Login"
+    "login": "Login",
+    "register": "Register"
   },
   "how": {
     "title": "How does SwiftPort work?",

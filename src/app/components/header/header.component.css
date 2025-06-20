@@ -123,6 +123,29 @@
   font-size: 0.875rem;
 }
 
+/* Register Button Styles */
+.register-button {
+  background-color: var(--color-white);
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-2) var(--spacing-4);
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  transition: all var(--transition-normal);
+}
+
+.register-button:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-md);
+}
+
 /* Search box styles */
 .search-box {
   position: relative;
@@ -236,6 +259,11 @@
   }
   
   .login-button {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .register-button {
     width: 100%;
     justify-content: center;
   }

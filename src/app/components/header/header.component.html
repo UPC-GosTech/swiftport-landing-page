@@ -37,11 +37,17 @@
       <div class="header-right">
         <!-- Language Switcher -->
         <app-language-switcher class="language-switcher"></app-language-switcher>
-        <!-- Login Button -->
-        <button class="login-button" (click)="closeMenu($event)">
+        <!-- Login Link -->
+        <a href="https://yellow-flower-081ba590f.6.azurestaticapps.net/login" class="login-button" target="_blank" rel="noopener" (click)="closeMenu($event)">
           <i class="fas fa-sign-in-alt"></i>
           {{ 'header.login' | translate }}
-        </button>
+        </a>
+
+        <!-- Register Link -->
+        <a href="https://yellow-flower-081ba590f.6.azurestaticapps.net/register" class="register-button" target="_blank" rel="noopener" (click)="closeMenu($event)">
+          <i class="fas fa-user-plus"></i>
+          {{ 'header.register' | translate }}
+        </a>
       </div>
     </div>
   </div>
