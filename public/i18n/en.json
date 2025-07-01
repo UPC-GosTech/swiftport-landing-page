@@ -29,14 +29,7 @@
       },
       "q5": {
         "question": "How do I get started with SwiftPort?",
-        "answer": {
-          "start": "Getting started with SwiftPort is very simple:",
-          "step1": "Contact our sales team",
-          "step2": "Configure your account according to your needs",
-          "step3": "Import your data or start from scratch",
-          "step4": "Train your team with our resources",
-          "end": "The entire process typically takes less than a week for basic implementations."
-        }
+        "answer": "You can deploy a functional pilot in less than 2 weeks and start gathering data from your operations within the first month."
       }
     }
   },
@@ -55,7 +48,37 @@
   },
   "functions": {
     "title": "SwiftPort Functionalities",
-    "subtitle": "Powerful solutions to optimize your logistics operations"
+    "subtitle": "Powerful solutions to optimize your logistics operations",
+    "list": {
+      "item1": {
+        "title": "Smart Planning",
+        "description": "Create tasks, define phases, and group activities."
+      },
+      "item2": {
+        "title": "Effective Assignment",
+        "description": "Distribute tasks based on real availability of staff and resources."
+      },
+      "item3": {
+        "title": "Real-time Monitoring",
+        "description": "GPS tracking and integration with weather or failure alerts."
+      },
+      "item4": {
+        "title": "Rescheduling",
+        "description": "Allows modifying schedules and logistic tasks in real time."
+      },
+      "item5": {
+        "title": "Incident Management",
+        "description": "Direct reports from the field with validation and assignment options."
+      },
+      "item6": {
+        "title": "Performance Visibility",
+        "description": "Visibility of tasks, blockages, downtime, and compliance."
+      },
+      "item7": {
+        "title": "Operational Flexibility",
+        "description": "Requests for rescheduling and status updates on site."
+      }
+    }
   },
   "header": {
     "start": "Start",

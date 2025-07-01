@@ -15,18 +15,18 @@ export class ExtensionPanelComponent {
   @Input() content: string = ''; // Optional content as string input
   @Input() theme: 'light' | 'dark'  = 'light'; // Theme options
   @Input() showIcon: boolean = true; // Whether to show the arrow icon
-  
+
   isExpanded: boolean = false;
-  
+
   togglePanel() {
     this.isExpanded = !this.isExpanded;
   }
-  
+
   // Choose the title to display
   get displayTitle(): string {
     if (this.title) {
       return this.title;
     }
-    return `${this.questionNumber}.${this.question}`;
+    return `${this.questionNumber}. ${this.question}`;
   }
 }

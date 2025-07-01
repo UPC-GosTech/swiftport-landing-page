@@ -14,38 +14,38 @@ export class FuncionalidadesSwiftportComponent {
 
   funcionalidades = [
     {
-      title: 'Planificación inteligente',
-      description: 'Crea tareas, define fases y agrupa actividades',
+      title: 'functions.list.item1.title',
+      description: 'functions.list.item1.description',
       accentColor: '#FF8C29' // Naranja brillante
     },
     {
-      title: 'Asignación efectiva',
-      description: 'Distribuye tareas según disponibilidad real de personal y recursos.',
+      title: 'functions.list.item2.title',
+      description: 'functions.list.item2.description',
       accentColor: '#F86F03' // Naranja intenso
     },
     {
-      title: 'Monitoreo en tiempo real',
-      description: 'Seguimiento por GPS e integración con alertas del clima o fallos.',
+      title: 'functions.list.item3.title',
+      description: 'functions.list.item3.description',
       accentColor: '#FFA41B' // Naranja amarillento
     },
     {
-      title: 'Reprogramación',
-      description: 'Permite modificar horarios y tareas logísticas en tiempo real.',
+      title: 'functions.list.item4.title',
+      description: 'functions.list.item4.description',
       accentColor: '#FF5B22' // Naranja rojizo
     },
     {
-      title: 'Gestión de incidencias',
-      description: 'Reportes directos desde campo con opción de validación y asignación.',
+      title: 'functions.list.item5.title',
+      description: 'functions.list.item5.description',
       accentColor: '#E14D2A' // Rojo anaranjado
     },
     {
-      title: 'Visibilidad de desempeño',
-      description: 'Visibilidad de tareas, bloqueos, tiempos muertos y cumplimiento.',
+      title: 'functions.list.item6.title',
+      description: 'functions.list.item6.description',
       accentColor: '#FD841F' // Naranja cálido
     },
     {
-      title: 'Flexibilidad operativa',
-      description: 'Solicitudes de reprogramación y actualizaciones de estado en terreno.',
+      title: 'functions.list.item7.title',
+      description: 'functions.list.item7.description',
       accentColor: '#FF7700' // Naranja estándar
     }
   ];

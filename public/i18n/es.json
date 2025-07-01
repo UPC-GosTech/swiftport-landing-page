@@ -48,7 +48,37 @@
   },
   "functions": {
     "title": " Funcionalidades de SwiftPort",
-    "subtitle": "Soluciones potentes para optimizar tus operaciones logísticas"
+    "subtitle": "Soluciones potentes para optimizar tus operaciones logísticas",
+    "list": {
+      "item1": {
+        "title": "Planificación inteligente",
+        "description": "Crea tareas, define fases y agrupa actividades."
+      },
+      "item2": {
+        "title": "Asignación efectiva",
+        "description": "Distribuye tareas según disponibilidad real de personal y recursos."
+      },
+      "item3": {
+        "title": "Monitoreo en tiempo real",
+        "description": "Seguimiento por GPS e integración con alertas del clima o fallos."
+      },
+      "item4": {
+        "title": "Reprogramación",
+        "description": "Permite modificar horarios y tareas logísticas en tiempo real."
+      },
+      "item5": {
+        "title": "Gestión de incidencias",
+        "description": "Reportes directos desde campo con opción de validación y asignación."
+      },
+      "item6": {
+        "title": "Visibilidad de desempeño",
+        "description": "Visibilidad de tareas, bloqueos, tiempos muertos y cumplimiento."
+      },
+      "item7": {
+        "title": "Flexibilidad operativa",
+        "description": "Solicitudes de reprogramación y actualizaciones de estado en terreno."
+      }
+    }
   },
   "header": {
     "start": "Inicio",
